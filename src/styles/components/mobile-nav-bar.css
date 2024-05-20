@@ -48,7 +48,8 @@
 }
 
 .mobile-nav-bar__logo {
-  height: 2.4rem;
+  height: 50px;
+  width: 50px;
 }
 
 .mobile-nav-bar__menu {
