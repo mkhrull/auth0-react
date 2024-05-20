@@ -27,7 +27,7 @@ export const Auth0Features = () => {
     {
       title: "DJI Air 2S",
       description:
-        "The DJI Air 2S is a small drone with a powerful 1200 mAh battery and a 1" sensor. The DJI Air 2S uses a large 1-inch sensor that's equally good at photography and video: it can shoot 5.4K at 30 frames per second and even 4K at 60 frames per second. With 20 megapixels, the brilliant f/2.8 sensor produces detailed images. ",
+        "The DJI Air 2S is a small drone with a powerful 1200 mAh battery and a 1 inch sensor. The DJI Air 2S uses a large 1-inch sensor that's equally good at photography and video: it can shoot 5.4K at 30 frames per second and even 4K at 60 frames per second. With 20 megapixels, the brilliant f/2.8 sensor produces detailed images. ",
       resourceUrl: "https://www.dji.com/global/support/product/air-2s",
       icon: "https://cdn.auth0.com/blog/hello-auth0/private-cloud-logo.svg",
     },
