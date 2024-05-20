@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 
-const InfiniteScrolling = () => {
+const ImageScrolling = () => {
   const containerRef = useRef(null);
 
   useEffect(() => {
