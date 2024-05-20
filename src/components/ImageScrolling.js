@@ -61,4 +61,4 @@ const ImageScrolling = () => {
   );
 };
 
-export default InfiniteScrolling;
+export default ImageScrolling;
