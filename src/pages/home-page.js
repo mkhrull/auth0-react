@@ -3,6 +3,7 @@ import { Auth0Features } from "../components/auth0-features";
 import { HeroBanner } from "../components/hero-banner";
 import { PageLayout } from "../components/page-layout";
 import { InfiniteScrolling } from "../components/InfiniteScrolling";
+import "./styles/components/scrolling.css";
 
 export const HomePage = () => (
   <PageLayout>
