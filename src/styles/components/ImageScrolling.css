@@ -1,0 +1,26 @@
+.infinite-scrolling {
+  display: flex;
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+  scroll-behavior: smooth;
+}
+
+.infinite-scrolling img {
+  height: 200px;
+  margin-right: 20px;
+  animation: scroll 20s linear infinite;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.infinite-scrolling:hover img {
+  animation-play-state: paused;
+}
