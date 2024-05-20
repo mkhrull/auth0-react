@@ -1,4 +1,5 @@
 import React, { useEffect, useRef } from 'react';
+import '../styles/components/ImageScrolling.css';
 
 const ImageScrolling = () => {
   const containerRef = useRef(null);
