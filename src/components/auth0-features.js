@@ -25,10 +25,10 @@ export const Auth0Features = () => {
       icon: "https://cdn.auth0.com/blog/hello-auth0/advanced-protection-logo.svg",
     },
     {
-      title: "Serverless Extensibility",
+      title: "DJI Air 2S",
       description:
-        "Actions are functions that allow you to customize the behavior of Auth0. Each action is bound to a specific triggering event on the Auth0 platform. Auth0 invokes the custom code of these Actions when the corresponding triggering event is produced at runtime.",
-      resourceUrl: "https://auth0.com/docs/actions",
+        "The DJI Air 2S is a small drone with a powerful 1200 mAh battery and a 1" sensor. The DJI Air 2S uses a large 1-inch sensor that's equally good at photography and video: it can shoot 5.4K at 30 frames per second and even 4K at 60 frames per second. With 20 megapixels, the brilliant f/2.8 sensor produces detailed images. ",
+      resourceUrl: "https://www.dji.com/global/support/product/air-2s",
       icon: "https://cdn.auth0.com/blog/hello-auth0/private-cloud-logo.svg",
     },
   ];
