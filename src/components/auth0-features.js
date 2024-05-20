@@ -11,10 +11,10 @@ export const Auth0Features = () => {
       icon: "https://cdn.auth0.com/blog/hello-auth0/identity-providers-logo.svg",
     },
     {
-      title: "Multi-Factor Authentication",
+      title: "Insta360 Pro 2",
       description:
-        "You can require your users to provide more than one piece of identifying information when logging in. MFA delivers one-time codes to your users via SMS, voice, email, WebAuthn, and push notifications.",
-      resourceUrl: "https://auth0.com/docs/multifactor-authentication",
+        "Insta360 Pro 2 is a unibody 360 VR camera with 6 lenses that shoots 8K video and photos in 3D and monoscopic formats, and supports up to 8K VR live streaming. Pro 2 is also equipped with Insta360's FlowState stabilization.",
+      resourceUrl: "https://www.insta360.com/product/insta360-pro2",
       icon: "https://cdn.auth0.com/blog/hello-auth0/mfa-logo.svg",
     },
     {
