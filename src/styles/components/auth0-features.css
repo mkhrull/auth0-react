@@ -68,7 +68,8 @@
 
 .auth0-feature__icon {
   /* responsive */
-
+  height: 50px;
+  width: 50px;
   margin-right: 1.6rem;
 }
 
