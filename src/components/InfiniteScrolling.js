@@ -1,21 +1,33 @@
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
 
 export const InfiniteScrolling = () => {
+  const [scrollPosition, setScrollPosition] = useState(0);
   const containerRef = useRef(null);
 
-  useEffect(() => {
-    const container = containerRef.current;
-
+ useEffect(() => {
     const handleScroll = () => {
-      if (container.scrollLeft === 0) {
-        container.scrollLeft = container.scrollWidth / 2;
-      }
+      // Update scroll position state
+      setScrollPosition(containerRef.current.scrollLeft);
     };
 
-    container.addEventListener("scroll", handleScroll);
+    containerRef.current.addEventListener('scroll', handleScroll);
 
     return () => {
-      container.removeEventListener("scroll", handleScroll);
+      containerRef.current.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
+  useEffect(() => {
+    // Handle window resize
+    const handleResize = () => {
+      // Update scroll position state based on new window width
+      setScrollPosition(containerRef.current.scrollLeft);
+    };
+
+    window.addEventListener('resize', handleResize);
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
     };
   }, []);
 
