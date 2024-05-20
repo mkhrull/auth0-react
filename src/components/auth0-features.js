@@ -8,7 +8,7 @@ export const Auth0Features = () => {
       description:
         "Microsoft HoloLens 2 is a mixed reality head-mounted display developed and manufactured by Microsoft. It is the successor to the original Microsoft HoloLens. The first variant of the device, The HoloLens 2 enterprise edition, debuted on February 24, 2019. This was followed by a developer edition that was announced on May 2, 2019. The HoloLens 2 was subsequently released in limited numbers on November 7, 2019.",
       resourceUrl: "https://www.microsoft.com/en-us/hololens",
-      icon: "https://cdn.auth0.com/blog/hello-auth0/identity-providers-logo.svg",
+      icon: "https://khaihsn.xyz/wp-content/uploads/2024/05/microsoft-5.svg",
     },
     {
       title: "Insta360 Pro 2",
