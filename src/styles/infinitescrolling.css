@@ -15,17 +15,7 @@
   width: 100%;
 }
 
-@media (max-width: 767px) {
-  .infinite-scrolling {
-    height: 150px;
-    width: 150px;
-  }
-  
-  .infinite-scrolling img {
-    height: 150px;
-    width: 150px;
-  }
-}
+
 @keyframes scroll {
   0% {
     transform: translateX(0);
