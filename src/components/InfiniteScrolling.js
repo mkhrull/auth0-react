@@ -44,7 +44,6 @@ export const InfiniteScrolling = () => {
       <img
         src="https://khaihsn.xyz/wp-content/uploads/2024/05/CFD507AF-FC0D-45E2-9520-2E850305253B-scaled-e1715490491979.jpeg"
         alt="Infinite Scrolling"
-        }}
       />
       {/* Add more images as needed */}
     </div>
