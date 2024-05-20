@@ -15,7 +15,7 @@ export const Auth0Features = () => {
       description:
         "Insta360 Pro 2 is a unibody 360 VR camera with 6 lenses that shoots 8K video and photos in 3D and monoscopic formats, and supports up to 8K VR live streaming. Pro 2 is also equipped with Insta360's FlowState stabilization.",
       resourceUrl: "https://www.insta360.com/product/insta360-pro2",
-      icon: "https://cdn.auth0.com/blog/hello-auth0/mfa-logo.svg",
+      icon: "https://khaihsn.xyz/wp-content/uploads/2024/05/6cloud.svg",
     },
     {
       title: "Intel® RealSense™ LiDAR Camera L515",
