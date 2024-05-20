@@ -17,13 +17,13 @@
 
 @media (max-width: 767px) {
   .infinite-scrolling {
-    height: 50px;
-    width: 50px;
+    height: 150px;
+    width: 150px;
   }
   
   .infinite-scrolling img {
-    height: 50px;
-    width: 50px;
+    height: 150px;
+    width: 150px;
   }
 }
 @keyframes scroll {
