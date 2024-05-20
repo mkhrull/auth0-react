@@ -1,9 +1,9 @@
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useRef } from 'react';
 
-export const InfiniteScrolling = () => {
-    const containerRef = useRef(null);
+const InfiniteScrolling = () => {
+  const containerRef = useRef(null);
 
-useEffect(() => {
+  useEffect(() => {
     const container = containerRef.current;
 
     const handleScroll = () => {
@@ -15,9 +15,9 @@ useEffect(() => {
     };
 
     container.addEventListener("scroll", handleScroll);
-  
+
     return () => {
-      window.removeEventListener("resize", handleScroll);
+      container.removeEventListener("scroll", handleScroll);
     };
   }, []);
 
