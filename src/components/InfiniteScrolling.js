@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import './InfiniteScrolling.css'; // Import the CSS file for styling
 
-default const InfiniteScrolling = () => {
+export const InfiniteScrolling = () => {
   const containerRef = useRef(null);
 
   useEffect(() => {
