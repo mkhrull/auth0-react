@@ -129,7 +129,8 @@
   }
 
   .nav-bar__logo {
-    height: 3.2rem;
+    height: 150px;
+    width: 150px;
   }
 
   .nav-bar__tab--active {
