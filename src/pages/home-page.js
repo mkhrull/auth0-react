@@ -7,5 +7,8 @@ export const HomePage = () => (
   <PageLayout>
     <HeroBanner />
     <Auth0Features />
+    <div>
+      <h1>Hello World!</h1>
+    </div>
   </PageLayout>
 );
