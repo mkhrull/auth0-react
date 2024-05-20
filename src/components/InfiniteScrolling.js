@@ -59,5 +59,3 @@ import React, { useEffect, useRef } from 'react';
     </div>
   );
 };
-
-export default InfiniteScrolling;
