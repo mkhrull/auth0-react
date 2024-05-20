@@ -17,8 +17,8 @@
 
 @media (max-width: 767px) {
   .infinite-scrolling img {
-    height: 150px;
-    width: 150px;
+    height: 50px;
+    width: 50px;
   }
 }
 @keyframes scroll {
