@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from "react";
 
 export const InfiniteScrolling = () => {
   const [scrollPosition, setScrollPosition] = useState(0);
-  const containerRef = useRef(null);
+    const containerRef = useRef(null);
 
  useEffect(() => {
     const handleScroll = () => {
@@ -10,10 +10,10 @@ export const InfiniteScrolling = () => {
       setScrollPosition(containerRef.current.scrollLeft);
     };
 
-    containerRef.current.addEventListener('scroll', handleScroll);
+    containerRef.current.addEventListener("scroll", handleScroll);
 
     return () => {
-      containerRef.current.removeEventListener('scroll', handleScroll);
+      containerRef.current.removeEventListener("scroll", handleScroll);
     };
   }, []);
 
@@ -24,10 +24,10 @@ export const InfiniteScrolling = () => {
       setScrollPosition(containerRef.current.scrollLeft);
     };
 
-    window.addEventListener('resize', handleResize);
+    window.addEventListener("resize", handleResize);
 
     return () => {
-      window.removeEventListener('resize', handleResize);
+      window.removeEventListener("resize", handleResize);
     };
   }, []);
 
