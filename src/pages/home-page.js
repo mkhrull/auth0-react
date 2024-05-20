@@ -7,8 +7,8 @@ export const HomePage = () => (
   <PageLayout>
     <HeroBanner />
     <Auth0Features />
-    <div>
-      <h1>Hello World!</h1>
+     <div style={{ textAlign: "center", marginTop: "2rem" }}>
+      <h1 style={{ color: "white" }}>Hello World!</h1>
     </div>
   </PageLayout>
 );
