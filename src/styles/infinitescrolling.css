@@ -4,6 +4,7 @@
   overflow-y: hidden;
   white-space: nowrap;
   scroll-behavior: smooth;
+  width: 100%;
 }
 
 .infinite-scrolling img {
