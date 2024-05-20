@@ -36,28 +36,14 @@ export const InfiniteScrolling = () => {
       <img
         src="https://khaihsn.xyz/wp-content/uploads/2024/05/CFD507AF-FC0D-45E2-9520-2E850305253B-scaled-e1715490491979.jpeg"
         alt="Infinite Scrolling"
-        style={{
-          height: "512px",
-          width: "512px",
-          marginRight: "20px",
-        }}
       />
       <img
         src="https://khaihsn.xyz/wp-content/uploads/2024/05/CFD507AF-FC0D-45E2-9520-2E850305253B-scaled-e1715490491979.jpeg"
         alt="Infinite Scrolling"
-        style={{
-          height: "512px",
-          width: "512px",
-          marginRight: "20px",
-        }}
       />
       <img
         src="https://khaihsn.xyz/wp-content/uploads/2024/05/CFD507AF-FC0D-45E2-9520-2E850305253B-scaled-e1715490491979.jpeg"
         alt="Infinite Scrolling"
-        style={{
-          height: "512px",
-          width: "512px",
-          marginRight: "20px",
         }}
       />
       {/* Add more images as needed */}
