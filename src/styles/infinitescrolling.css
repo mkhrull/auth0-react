@@ -13,6 +13,12 @@
   border-radius: 20px 20px 20px 20px;
 }
 
+@media (max-width: 767px) {
+  .infinite-scrolling img {
+    height: 150px;
+    width: 150px;
+  }
+}
 @keyframes scroll {
   0% {
     transform: translateX(0);
