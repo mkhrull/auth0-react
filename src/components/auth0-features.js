@@ -18,10 +18,10 @@ export const Auth0Features = () => {
       icon: "https://cdn.auth0.com/blog/hello-auth0/mfa-logo.svg",
     },
     {
-      title: "Attack Protection",
+      title: "Intel® RealSense™ LiDAR Camera L515",
       description:
-        "Auth0 can detect attacks and stop malicious attempts to access your application such as blocking traffic from certain IPs and displaying CAPTCHA. Auth0 supports the principle of layered protection in security that uses a variety of signals to detect and mitigate attacks.",
-      resourceUrl: "https://auth0.com/docs/attack-protection",
+        "The L515 is a revolutionary solid state LiDAR depth camera which uses a proprietary MEMS mirror scanning technology, enabling better laser power efficiency compared to other time‑of‑flight technologies. With less than 3.5W power consumption for depth streaming, the Intel RealSense LiDAR camera L515 is the world’s most power efficient high‑resolution LiDAR camera.",
+      resourceUrl: "https://www.intelrealsense.com/lidar-camera-l515/",
       icon: "https://cdn.auth0.com/blog/hello-auth0/advanced-protection-logo.svg",
     },
     {
